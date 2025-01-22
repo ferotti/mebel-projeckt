@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    padding: 20px 25px;
+}
+
+nav {
+    display: inline-block;
+    width: calc(100% - 103px);
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 25px;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 22px;
+}
+nav ul li a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+#section-1{
+    background-position: top;
+    padding: 12px;
+    height: 850px;
+    width: 100%;
+    background-size: cover;
+}
+
+#mebe1 {
+    display: inline-block;
+    text-align: right;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+
+
+
+
